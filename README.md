@@ -10,21 +10,22 @@
 
 ## Token
 1. Stored as Cookies
-2   App send usn/pass
-    API check credentials in DB
-        If a user is found, it generates a token 
-        Send token 
-    App uses token from now
+2.App send usn/pass
+    -API check credentials in DB
+    - If a user is found, it generates a token 
+    - Send token
+    - App uses token from now
 3. Types : Bearer (life  >15 mins ) , JWT (life < 15 mins )
-    Bearer -
-        1. life  >15 mins
-        2. stored in DB and verified each time
-        3. Hard to hack
-    JWT  - 
-        1. Life is 15 mins
-        2. Carries all info
-        3. Once issued hard to invalide
-        4. Hard to Hack 
+
+### Bearer -
+1. life  >15 mins
+2. stored in DB and verified each time
+3. Hard to hack
+### JWT  - 
+1. Life is 15 mins
+2. Carries all info
+3. Once issued hard to invalide
+4. Hard to Hack 
 
 ### Browser > Console 
 
